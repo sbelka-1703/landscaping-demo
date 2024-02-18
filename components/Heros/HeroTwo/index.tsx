@@ -5,7 +5,7 @@ export default function HeroTwo() {
     <div className="bg-gray-900">
       <div className="relative isolate overflow-hidden pt-14 ">
         <Image
-          src="/lawn2.jpg"
+          src="/landscape-160-64-2.webp"
           alt=""
           className="absolute inset-0 -z-10 h-full w-full object-cover"
           width={3000}

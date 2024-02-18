@@ -6,16 +6,19 @@ import HeroFour from "@/components/Heros/HeroFour";
 import HeroFive from "@/components/Heros/HeroFive";
 import Feature from "@/components/Features/Featrue";
 import FeatureTwo from "@/components/Features/FeatureTwo";
+import FeatureThree from "@/components/Features/FeatureThree";
 
 export default function Home() {
   return (
     <div>
-      {/* <Hero /> */}
-      {/* <HeroTwo /> */}
-      {/* <HeroThree /> */}
-      {/* <HeroFour /> */}
+      <Hero />
+      <HeroTwo />
+      <HeroThree />
+      <HeroFour />
       <HeroFive />
+      <Feature />
       <FeatureTwo />
+      <FeatureThree />
     </div>
   );
 }

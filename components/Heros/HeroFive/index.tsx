@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useState } from "react";
 
 export default function HeroFive() {
@@ -45,10 +46,12 @@ export default function HeroFive() {
           </div>
         </div>
         <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <img
+          <Image
             className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-            src="/lawn2.png"
+            src="/landscape-160-64-4.webp"
             alt=""
+            width={1000}
+            height={1000}
           />
         </div>
       </div>
