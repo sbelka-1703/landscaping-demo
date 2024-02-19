@@ -7,18 +7,20 @@ import HeroFive from "@/components/Heros/HeroFive";
 import Feature from "@/components/Features/Featrue";
 import FeatureTwo from "@/components/Features/FeatureTwo";
 import FeatureThree from "@/components/Features/FeatureThree";
+import CarouselLand from "@/components/CarouselLand";
 
 export default function Home() {
   return (
     <div>
       <Hero />
-      <HeroTwo />
+      {/* <HeroTwo />
       <HeroThree />
       <HeroFour />
       <HeroFive />
       <Feature />
-      <FeatureTwo />
+      <FeatureTwo /> */}
       <FeatureThree />
+      <CarouselLand />
     </div>
   );
 }
