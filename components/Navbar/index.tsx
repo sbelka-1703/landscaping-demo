@@ -47,15 +47,15 @@ export default function Example() {
                     Home
                   </Link>
                   <Link
-                    href="/services"
+                    href="/gallery"
                     className={
                       "inline-flex items-center border-b-2 px-1 pt-1 text-lg font-medium text-gray-500 " +
-                      (pathname === "/services"
+                      (pathname === "/gallery"
                         ? "border-green-700"
                         : "border-transparent hover:text-gray-700 hover:border-gray-300")
                     }
                   >
-                    Services
+                    Gallery
                   </Link>
                   <Link
                     href="/about"
