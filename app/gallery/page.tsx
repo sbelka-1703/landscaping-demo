@@ -17,18 +17,20 @@ const images = [
 
 const Gallery: React.FC = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-4">
-      {images.map((image, index) => (
-        <div key={index}>
-          <Image
-            width={1000}
-            height={1000}
-            className="h-auto max-w-full rounded-lg"
-            src={image}
-            alt=""
-          />
-        </div>
-      ))}
+    <div className="w-full flex justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:w-10/12 gap-4 mx-4">
+        {images.map((image, index) => (
+          <div key={index}>
+            <Image
+              width={500}
+              height={500}
+              className="h-auto max-w-full rounded-lg"
+              src={image}
+              alt=""
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

@@ -61,7 +61,7 @@ export default function Example() {
                     href="/reviews"
                     className={
                       "inline-flex items-center border-b-2 px-1 pt-1 text-2xl font-medium text-gray-500 " +
-                      (pathname === "/about"
+                      (pathname === "/reviews"
                         ? "border-green-700"
                         : "border-transparent hover:text-gray-700 hover:border-gray-300")
                     }
