@@ -2,7 +2,7 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 
-export default function Example() {
+export default function About() {
   const stats = [
     { label: "Completed every month", value: "150 Projects" },
     { label: "Annual landscaping budget management", value: "$5 Million" },
@@ -13,10 +13,6 @@ export default function Example() {
     <div className="bg-white">
       <main>
         <div className="relative isolate">
-          <div
-            className="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
-            aria-hidden="true"
-          ></div>
           <div className="overflow-hidden">
             <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
