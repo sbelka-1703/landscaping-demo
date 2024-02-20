@@ -4,7 +4,8 @@ const navigation = {
   main: [
     { name: "Home", href: "/" },
 
-    { name: "Services", href: "/services" },
+    { name: "Gallery", href: "/gallery" },
+    { name: "Reviews", href: "/reviews" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
   ],
