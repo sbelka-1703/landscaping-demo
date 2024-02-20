@@ -8,18 +8,20 @@ import Feature from "@/components/Features/Featrue";
 import FeatureTwo from "@/components/Features/FeatureTwo";
 import FeatureThree from "@/components/Features/FeatureThree";
 import CarouselLand from "@/components/CarouselLand";
+import Reviews from "@/components/Reviews";
 
 export default function Home() {
   return (
     <div>
-      <Hero />
-      {/* <HeroTwo />
-      <HeroThree />
+      {/* <Hero /> */}
+      <HeroTwo />
+      {/*<HeroThree />
       <HeroFour />
       <HeroFive />
-      <Feature />
-      <FeatureTwo /> */}
-      <FeatureThree />
+      <Feature /> */}
+      <FeatureTwo />
+      {/* <FeatureThree /> */}
+      <Reviews />
       <CarouselLand />
     </div>
   );

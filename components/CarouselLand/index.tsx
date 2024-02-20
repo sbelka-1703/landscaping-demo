@@ -23,7 +23,7 @@ export default function CarouselLand() {
 
   return (
     <div className="w-full flex justify-center">
-      <div className="blaze-slider w-full md:w-5/6 xl:w-2/4" ref={elRef}>
+      <div className="blaze-slider w-full sm:w-5/6 xl:w-8/12" ref={elRef}>
         <div className="blaze-container">
           <div className="blaze-track-container">
             <div className="blaze-track">
