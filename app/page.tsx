@@ -8,7 +8,7 @@ import Feature from "@/components/Features/Featrue";
 import FeatureTwo from "@/components/Features/FeatureTwo";
 import FeatureThree from "@/components/Features/FeatureThree";
 import CarouselLand from "@/components/CarouselLand";
-import Reviews from "@/components/Reviews";
+import ReviewsLanding from "@/components/ReviewsLanding";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
       <Feature /> */}
       <FeatureTwo />
       {/* <FeatureThree /> */}
-      <Reviews />
+      <ReviewsLanding />
       <CarouselLand />
     </div>
   );

@@ -79,7 +79,7 @@ function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Reviews() {
+export default function ReviewsLanding() {
   return (
     <>
       <div className="w-full text-center">

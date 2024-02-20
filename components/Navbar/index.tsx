@@ -38,7 +38,7 @@ export default function Example() {
                   <Link
                     href="/"
                     className={
-                      "inline-flex items-center border-b-2 px-1 pt-1 text-lg font-medium text-gray-500  " +
+                      "inline-flex items-center border-b-2 px-1 pt-1 text-2xl font-medium text-gray-500  " +
                       (pathname === "/"
                         ? "border-green-700 "
                         : "border-transparent hover:text-gray-700 hover:border-gray-300")
@@ -49,7 +49,7 @@ export default function Example() {
                   <Link
                     href="/gallery"
                     className={
-                      "inline-flex items-center border-b-2 px-1 pt-1 text-lg font-medium text-gray-500 " +
+                      "inline-flex items-center border-b-2 px-1 pt-1 text-2xl font-medium text-gray-500 " +
                       (pathname === "/gallery"
                         ? "border-green-700"
                         : "border-transparent hover:text-gray-700 hover:border-gray-300")
@@ -58,9 +58,20 @@ export default function Example() {
                     Gallery
                   </Link>
                   <Link
+                    href="/reviews"
+                    className={
+                      "inline-flex items-center border-b-2 px-1 pt-1 text-2xl font-medium text-gray-500 " +
+                      (pathname === "/about"
+                        ? "border-green-700"
+                        : "border-transparent hover:text-gray-700 hover:border-gray-300")
+                    }
+                  >
+                    Reviews
+                  </Link>
+                  <Link
                     href="/about"
                     className={
-                      "inline-flex items-center border-b-2 px-1 pt-1 text-lg font-medium text-gray-500 " +
+                      "inline-flex items-center border-b-2 px-1 pt-1 text-2xl font-medium text-gray-500 " +
                       (pathname === "/about"
                         ? "border-green-700"
                         : "border-transparent hover:text-gray-700 hover:border-gray-300")
@@ -71,7 +82,7 @@ export default function Example() {
                   <Link
                     href="/contact"
                     className={
-                      "inline-flex items-center border-b-2 px-1 pt-1 text-lg font-medium text-gray-500 " +
+                      "inline-flex items-center border-b-2 px-1 pt-1 text-2xl font-medium text-gray-500 " +
                       (pathname === "/contact"
                         ? "border-green-700"
                         : "border-transparent hover:text-gray-700 hover:border-gray-300")
@@ -135,6 +146,18 @@ export default function Example() {
                 }
               >
                 About
+              </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
+                href="/reviews"
+                className={
+                  "block border-l-4  py-2 pl-3 pr-4 text-base font-medium text-gray-500 " +
+                  (pathname === "/about"
+                    ? "border-green-900 bg-green-50 text-green-700 "
+                    : "border-transparent hover:border-gray-300 hover:bg-gray-50")
+                }
+              >
+                Reviews
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
