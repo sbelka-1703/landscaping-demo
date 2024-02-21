@@ -5,17 +5,18 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 
 const images = [
+  "/landscape-1088-960-2.webp",
+  "/landscape-1088-960-1.webp",
+  "/landscape-1088-960-2.webp",
+  "/landscape-1152-832-2.webp",
+  "/landscape-160-64-5.webp",
   "/landscape-1152-832-2.webp",
   "/landscape-1152-832-2.webp",
-  "/landscape-1152-832-2.webp",
-  "/landscape-1152-832-2.webp",
-  "/landscape-1152-832-2.webp",
-  "/landscape-1152-832-2.webp",
-  "/landscape-1152-832-2.webp",
-  "/landscape-1152-832-2.webp",
-  "/landscape-1152-832-2.webp",
-  "/landscape-1152-832-2.webp",
-  "/landscape-1152-832-2.webp",
+  "/landscape-1152-896-3.webp",
+  "/landscape-1152-896-1.webp",
+  "/landscape-1152-896-2.webp",
+  "/landscape-1152-896-3.webp",
+  "/landscape-1152-832-1.webp",
 ];
 
 const Gallery: React.FC = () => {
