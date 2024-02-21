@@ -125,15 +125,27 @@ export default function Example() {
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="/services"
+                href="/gallery"
                 className={
                   "block border-l-4  py-2 pl-3 pr-4 text-base font-medium text-gray-500 " +
-                  (pathname === "/services"
+                  (pathname === "/gallery"
                     ? "border-green-900 bg-green-50 text-green-700 "
                     : "border-transparent hover:border-gray-300 hover:bg-gray-50")
                 }
               >
-                Services
+                Gallery
+              </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
+                href="/reviews"
+                className={
+                  "block border-l-4  py-2 pl-3 pr-4 text-base font-medium text-gray-500 " +
+                  (pathname === "/reviews"
+                    ? "border-green-900 bg-green-50 text-green-700 "
+                    : "border-transparent hover:border-gray-300 hover:bg-gray-50")
+                }
+              >
+                Reviews
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
@@ -146,18 +158,6 @@ export default function Example() {
                 }
               >
                 About
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="/reviews"
-                className={
-                  "block border-l-4  py-2 pl-3 pr-4 text-base font-medium text-gray-500 " +
-                  (pathname === "/about"
-                    ? "border-green-900 bg-green-50 text-green-700 "
-                    : "border-transparent hover:border-gray-300 hover:bg-gray-50")
-                }
-              >
-                Reviews
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
