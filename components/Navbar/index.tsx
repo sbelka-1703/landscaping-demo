@@ -95,7 +95,7 @@ export default function Example() {
 
               <div className="-mr-2 flex items-center sm:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-900">
+                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-[rgb(4,66,32)] hover:bg-gray-100 hover:text-[rgb(4,66,32)] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-900">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
                   {open ? (
