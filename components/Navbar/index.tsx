@@ -25,7 +25,7 @@ export default function Example() {
                   <Link href="/">
                     <Image
                       // src="/deer_valley_logos_svg/Frame-12.svg"
-                      className=" w-20 md:w-28 mr-44 md:mr-0"
+                      className=" w-20 md:w-28 mr-48 ml-2 md:mr-0"
                       src="/logo-3.svg"
                       alt="Your Company"
                       width={120}
@@ -95,7 +95,7 @@ export default function Example() {
 
               <div className="-mr-2 flex items-center sm:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-[rgb(4,66,32)] hover:bg-gray-100 hover:text-[rgb(4,66,32)] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-900">
+                <Disclosure.Button className="relative  inline-flex items-center justify-center rounded-md p-2 text-[rgb(4,66,32)] hover:bg-gray-100 hover:text-[rgb(4,66,32)] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-900">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
                   {open ? (
