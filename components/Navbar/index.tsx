@@ -18,18 +18,18 @@ export default function Example() {
     <Disclosure as="nav" className="bg-white  ">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl  px-4 sm:px-8 lg:px-9 ">
-            <div className="flex h-28 justify-between">
+          <div className="mx-auto max-w-7xl  px-4 sm:px-8 lg:px-9   flex justify-center">
+            <div className="flex h-32 justify-between">
               <div className="flex">
-                <div className="flex flex-shrink-0 items-center -ml-8">
+                <div className="flex flex-shrink-0 items-center mr-16 mb-3">
                   <Link href="/">
                     <Image
-                      className=" rounded-3xl w-64 sm:w-72"
                       // src="/deer_valley_logos_svg/Frame-12.svg"
-                      src="/deer_valley_logos_svg/Frame-7.svg"
+
+                      src="/logo-3.svg"
                       alt="Your Company"
-                      width={"300"}
-                      height={"300"}
+                      width={120}
+                      height={120}
                     />
                   </Link>
                 </div>
